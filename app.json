@@ -47,7 +47,7 @@
         "BG_IMAGE": {
             "description": "fill with your costum background image link",
             "required": false,
-            "value": "https://telegra.ph/file/4ab47cf9e6f82841ebd1f.jpg"
+            "value": "https://telegra.ph/file/de2f055c5bf699169c91d.jpg"
         },
         "OWNER_NAME": {
             "description": "fill with your username without @",

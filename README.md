@@ -1,22 +1,22 @@
-## 🎵 Music World 🌎
+## ❤️ ROCKS MUSIC BOT ❤️
 
-Music World Is A Telegram Bot Project That's Allow You To Play Music On Telegram Voice Chat Group.
+ROCKS Music Is A Telegram Bot Project That's Allow You To Play Music On Telegram Voice Chat Group.
 
 <p align="center"><a href=""> <img src="https://img.shields.io/badge/Copy%20Paster%20Ki%20Gand%20Main%20Land-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 <p align="center"><a href="https://t.me/Dr_Asad_Ali"><img src="https://telegra.ph/file/1b3ae71e07bcbe85db161.jpg" width="300"></a></p>
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
-    <a href="https://github.com/jankarikiduniya/MusicWorld/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-red.svg?style=flat-square" /></a>
-    <a href="https://app.codacy.com/gh/jankarikiduniya/MusicWorld/dashboard"> <img src="https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=red&logo=codacy&style=flat-square" alt="Codacy" /></a><br>
-    <a href="https://github.com/jankarikiduniya/MusicWorld"> <img src="https://img.shields.io/github/repo-size/jankarikiduniya/MusicWorld?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/jankarikiduniya/MusicWorld/commits/main"> <img src="https://img.shields.io/github/last-commit/jankarikiduniya/MusicWorld?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/jankarikiduniya/MusicWorld/issues"> <img src="https://img.shields.io/github/issues/?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/jankarikiduniya/MusicWorld/network/members"> <img src="https://img.shields.io/github/forks/jankarikiduniya/MusicWorld?color=red&logo=github&logoColor=blue&style=flat-square" /></a>  
-    <a href="https://github.com/jankarikiduniya/MusicWorld/network/members"> <img src="https://img.shields.io/github/stars/jankarikiduniya/MusicWorld?color=red&logo=github&logoColor=blue&style=flat-square" /></a>  
+    <a href="https://github.com/jankarikiduniya/RockesMusic/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-red.svg?style=flat-square" /></a>
+    <a href="https://app.codacy.com/gh/jankarikiduniya/RockesMusic/dashboard"> <img src="https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=red&logo=codacy&style=flat-square" alt="Codacy" /></a><br>
+    <a href="https://github.com/jankarikiduniya/RockesMusic"> <img src="https://img.shields.io/github/repo-size/jankarikiduniya/RockesMusic?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
+    <a href="https://github.com/jankarikiduniya/RockesMusic/commits/main"> <img src="https://img.shields.io/github/last-commit/jankarikiduniya/RockesMusic?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
+    <a href="https://github.com/jankarikiduniya/RockesMusic/issues"> <img src="https://img.shields.io/github/issues/?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
+    <a href="https://github.com/jankarikiduniya/RockesMusic/network/members"> <img src="https://img.shields.io/github/forks/jankarikiduniya/RockesMusic?color=red&logo=github&logoColor=blue&style=flat-square" /></a>  
+    <a href="https://github.com/jankarikiduniya/RockesMusic/network/members"> <img src="https://img.shields.io/github/stars/jankarikiduniya/RockesMusic?color=red&logo=github&logoColor=blue&style=flat-square" /></a>  
 </p>
 
-<h3>Requirements ðŸ˜ŠÂ</h3>
+<h3>Requirements 😊</h3>
 
 - FFmpeg
 - NodeJS [nodesource.com](https://nodesource.com/)
@@ -28,16 +28,16 @@ Music World Is A Telegram Bot Project That's Allow You To Play Music On Telegram
 
 [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@AssadAli/AsadMusic) ``Pyrogram``
 
-## Heroku Deployment ❣️
+## Heroku Deployment ❤️
 The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jankarikiduniya/MusicWorld)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jankarikiduniya/RockesMusic)
 
-### Asad ❤️ History
+### Asad– History
 
 <a href="https://www.youtube.com/JankariKiDuniya"><img src="https://img.shields.io/badge/Join-Subscribe%20Support-blue.svg?style=for-the-badge&logo=YouTube"></a>
 
-## Features ❤️
+## Features ❤️”®
 
 - Thumbnail Support
 - Playlist Support
@@ -64,7 +64,7 @@ The easy way to host this bot, deploy to Heroku, Change the app country to Europ
 - `/lyric <song name>` - lyrics scrapper
 - `/vk <song name>` - generate song without download
 
-#### Admins Only ❤️
+#### Admins Only 😜
 - `/player` - open music player settings panel
 - `/pause` - pause song play
 - `/resume` - resume song play
@@ -81,12 +81,12 @@ The easy way to host this bot, deploy to Heroku, Change the app country to Europ
 - `/deauth` - deauthorized people to access the admin commands
 - `/control` - open the music player control panel
 
-### Sudo User ❤️
+### Sudo User ❣️
 - `/stats` - see the bot statistic
 - `/pmpermit on | off` turn on/off the assistant pmpermit
 - `/leaveall` - order the assistant to leave all groups
 
-### Owner Only ❤️
+### Owner Only 🕺
 - `/broadcast` - send a broadcast message from the bot
 - `/block` - block people for using your bot
 - `/unblock` - unblock people you blocked for using your bot
@@ -113,11 +113,11 @@ vim .env #Fill up your ENVs ( Steps press i to enter in insert mode then edit th
 python3 main.py # Run the bot
 ```
 
-### Special Credits ❤️
+### Special Credits ❤️❤️
 - [Jankari Ki Duniya](https://github.com/jankarikiduniya): Dev Ulo
 - [Asad Ali](https://t.me/Dr_Asad_Ali): Dev Chutiya
-- [Harshit](https://t.me/HarshitSharma361): Support Bhai Ki Jan â¤ï¸
-- [Dhiren](https://t.me/DaYuSH_Owner_Of_ROcKs) Support â£ï¸
+- [Harshit](https://t.me/HarshitSharma361): Support Bhai Ki Jan ❤️
+- [Dhiren](https://t.me/DaYuSH_Owner_Of_ROcKs) Support ❣️
 
-### Support & Updates ❤️
+### Support & Updates ❤️❤️
 <a href="https://t.me/Shayri_Music_Lovers"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/jankarikiduniya"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>

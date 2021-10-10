@@ -588,43 +588,6 @@ async def play(_, message: Message):
             await lel.edit(
                 "😕 **Kesa Songa Hai Yar Mila Nai**\n\n» **Please Provide The Name Of The Song You Want To Play**😁"
             )
-
-            # veez project
-            return
-            # veez project
-        except:
-            await lel.edit("__No More Results To Choose, Starting To Playing...__")
-
-            # print(results)
-            try:
-                url = f"https://youtube.com{results[0]['url_suffix']}"
-                title = results[0]["title"][:60]
-                thumbnail = results[0]["thumbnails"][0]
-                thumb_name = f"{title}.jpg"
-                thumb = requests.get(thumbnail, allow_redirects=True)
-                open(thumb_name, "wb").write(thumb.content)
-                duration = results[0]["duration"]
-                results[0]["url_suffix"]
-                results[0]["views"]
-            except Exception as e:
-                await lel.edit(
-                    "😕 **Kesa Songa Likha Hai Yar Mila He Nai**\n\n» **Please Provide The Correct Song Name Or Include The Artist's Name As Well** 😐"
-                )
-                print(str(e))
-                return
-            keyboard = InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton("🖱 ᴍᴇɴᴜ", callback_data="menu"),
-                        InlineKeyboardButton("🗑 ᴄʟᴏsᴇ", callback_data="cls"),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            "📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
-                        )
-                    ],
-                ]
-            )
             message.from_user.first_name
             await generate_cover(title, thumbnail)
             file_path = await converter.convert(youtube.download(url))

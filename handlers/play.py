@@ -99,7 +99,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "EsportPlayer"
+        user.first_name = "MusicWorld_Robot"
     usar = user
     wew = usar.id
     try:
@@ -198,7 +198,7 @@ async def play(_, message: Message):
             )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/a8feaf4dfb0005fb7fc89.jpg"
+            thumb_name = "https://telegra.ph/file/4ab47cf9e6f82841ebd1f.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -285,7 +285,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="** Now 😄 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 📀 𝗔𝘁 🤟 `[Asad Ali Server](https://t.me/Dr_Asad_Ali}`...**".format(
+        caption="** Now 😄 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 📀 𝗔𝘁 🤟 `{}`...**".format(
         message.chat.title
         ), )
         os.remove("final.png")

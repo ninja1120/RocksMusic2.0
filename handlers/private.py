@@ -35,7 +35,7 @@ async def start(_, message: Message):
     
     await message.reply_text(
         f"""**
-🌠𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗱𝘃𝗮𝗻𝗰𝗲 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗠𝘂𝘀𝗶𝗰 𝗕𝗼𝘁 \n🌺𝗥𝘂𝗻 𝗢𝗻 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗩𝗣𝗦 𝗦𝗲𝗿𝘃𝗲𝗿 \n🌼𝗙𝗲𝗲𝗹 𝗛𝗶𝗴𝗵 𝗤𝘂𝗮𝗹𝗶𝘁𝘆 𝗠𝘂𝘀𝗶𝗰 𝗜𝗻 𝗩𝗖 \n⭐𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗱 𝗕𝘆 [Asad Ali](https://t.me/Dr_Asad_Ali)**
+🌠𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗱𝘃𝗮𝗻𝗰𝗲 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗠𝘂𝘀𝗶𝗰 𝗕𝗼𝘁 \n🌺𝗥𝘂𝗻 𝗢𝗻 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗩𝗣𝗦 𝗦𝗲𝗿𝘃𝗲𝗿 \n🌼𝗙𝗲𝗲𝗹 𝗛𝗶𝗴𝗵 𝗤𝘂𝗮𝗹𝗶𝘁𝘆 𝗠𝘂𝘀𝗶𝗰 𝗜𝗻 𝗩𝗖 \n⭐𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗱 𝗕𝘆 [SANSKARI](https://t.me/broken_starr)**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -44,14 +44,14 @@ async def start(_, message: Message):
                         "❰𝗢𝘄𝗻𝗲𝗿❱", url="https://t.me/Dr_Asad_Ali")
                   ],[
                     InlineKeyboardButton(
-                        "❰𝗦𝘂𝗽𝗽𝗼𝗿𝘁❱", url="https://t.me/Unknown_Venom"
+                        "❰𝗦𝘂𝗽𝗽𝗼𝗿𝘁❱", url="https://t.me/jankarikiduniya"
                     ),
                     InlineKeyboardButton(
                         "❰𝗚𝗿𝗼𝘂𝗽❱", url="https://t.me/Shayri_Music_Lovers"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "❰𝗢𝘄𝗻𝗲𝗿❱", url="https://t.me/Harshit_Sharma_Owner_Of_ROCKS"
+                        "❰𝗢𝘄𝗻𝗲𝗿❱", url="https://t.me/HarshitSharma361"
                     )]
             ]
         ),
@@ -69,7 +69,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "✨ ɢʀᴏᴜᴘ", url=f"https://t.me/Harshit_Sharma_Owner_Of_ROCKS"
+                        "✨ ɢʀᴏᴜᴘ", url=f"https://t.me/Shayri_Music_Lovers"
                     ),
                     InlineKeyboardButton(
                         "📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/jankarikiduniya"

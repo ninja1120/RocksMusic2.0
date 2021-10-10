@@ -7,13 +7,13 @@ ROCKS Music Is A Telegram Bot Project That's Allow You To Play Music On Telegram
 <p align="center"><a href="https://t.me/Dr_Asad_Ali"><img src="https://telegra.ph/file/1b3ae71e07bcbe85db161.jpg" width="300"></a></p>
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
-    <a href="https://github.com/jankarikiduniya/RocksMusic2.0/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-red.svg?style=flat-square" /></a>
-    <a href="https://app.codacy.com/gh/jankarikiduniya/RockesMusic2.0/dashboard"> <img src="https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=red&logo=codacy&style=flat-square" alt="Codacy" /></a><br>
-    <a href="https://github.com/jankarikiduniya/RockesMusic2.0"> <img src="https://img.shields.io/github/repo-size/jankarikiduniya/RockesMusic2.0?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/jankarikiduniya/RockesMusic2.0/commits/main"> <img src="https://img.shields.io/github/last-commit/jankarikiduniya/RockesMusic2.0?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/jankarikiduniya/RockesMusic2.0/issues"> <img src="https://img.shields.io/github/issues/?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/jankarikiduniya/RockesMusic2.0/network/members"> <img src="https://img.shields.io/github/forks/jankarikiduniya/RockesMusic2.0?color=red&logo=github&logoColor=blue&style=flat-square" /></a>  
-    <a href="https://github.com/jankarikiduniya/RockesMusic/network/members"> <img src="https://img.shields.io/github/stars/jankarikiduniya/RockesMusic2.0?color=red&logo=github&logoColor=blue&style=flat-square" /></a>  
+    <a href="https://github.com/jankarikiduniya/RockesMusic/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-red.svg?style=flat-square" /></a>
+    <a href="https://app.codacy.com/gh/jankarikiduniya/RockesMusic/dashboard"> <img src="https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=red&logo=codacy&style=flat-square" alt="Codacy" /></a><br>
+    <a href="https://github.com/jankarikiduniya/RockesMusic"> <img src="https://img.shields.io/github/repo-size/jankarikiduniya/RockesMusic?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
+    <a href="https://github.com/jankarikiduniya/RockesMusic/commits/main"> <img src="https://img.shields.io/github/last-commit/jankarikiduniya/RockesMusic?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
+    <a href="https://github.com/jankarikiduniya/RockesMusic/issues"> <img src="https://img.shields.io/github/issues/?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
+    <a href="https://github.com/jankarikiduniya/RockesMusic/network/members"> <img src="https://img.shields.io/github/forks/jankarikiduniya/RockesMusic?color=red&logo=github&logoColor=blue&style=flat-square" /></a>  
+    <a href="https://github.com/jankarikiduniya/RockesMusic/network/members"> <img src="https://img.shields.io/github/stars/jankarikiduniya/RockesMusic?color=red&logo=github&logoColor=blue&style=flat-square" /></a>  
 </p>
 
 <h3>Requirements 😊</h3>
@@ -40,7 +40,7 @@ The easy way to host this bot, deploy to Heroku, Change the app country to Europ
 ## Features ❤️”®
 
 - Thumbnail Support
-- **Playlist Removed
+- Playlist **Removed
 - Showing track names when skipping
 - Youtube, Local playback support
 - Settings panel

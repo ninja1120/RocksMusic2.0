@@ -1,6 +1,6 @@
 ## 🎵 Music World 🌎
 
-ROCKS Music Is A Telegram Bot Project That's Allow You To Play Music On Telegram Voice Chat Group.
+Music World Is A Telegram Bot Project That's Allow You To Play Music On Telegram Voice Chat Group.
 
 <p align="center"><a href=""> <img src="https://img.shields.io/badge/Copy%20Paster%20Ki%20Gand%20Main%20Land-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 

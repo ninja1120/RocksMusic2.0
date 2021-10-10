@@ -6,31 +6,6 @@ import youtube_dl
 from pyrogram import filters, Client
 from youtube_search import YoutubeSearch
 
-from __future__ import unicode_literals
-
-import asyncio
-import math
-import os
-import time
-from random import randint
-from urllib.parse import urlparse
-
-import aiofiles
-import aiohttp
-import requests
-import wget
-import yt_dlp
-from pyrogram import Client, filters
-from pyrogram.errors import FloodWait, MessageNotModified
-from pyrogram.types import Message
-from youtube_search import YoutubeSearch
-from yt_dlp import YoutubeDL
-
-from config import BOT_USERNAME as bn
-from helpers.decorators import humanbytes
-from helpers.filters import command
-
-
 def time_to_seconds(time):
     stringt = str(time)
     return sum(int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(':'))))
@@ -76,7 +51,7 @@ def song(client, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = '**🎵 𝗨𝗽𝗹𝗼𝗮𝗱𝗲𝗱 𝗕𝘆 :- ✨ @Prayagraj_Op ❤️☝️**'
+        rep = '**🎵 𝗨𝗽𝗹𝗼𝗮𝗱𝗲𝗱 𝗕𝘆 :- ✨ @Dr_Asad_Ali ❤️☝️**'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)

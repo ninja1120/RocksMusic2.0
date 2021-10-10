@@ -14,10 +14,10 @@ admins = {}
 SESSION_NAME = getenv("SESSION_NAME", "session")
 BOT_TOKEN = getenv("BOT_TOKEN")
 BOT_NAME = getenv("BOT_NAME", "𝐀𝐬𝐚𝐝 👑 𝐌𝐔𝐒𝐈𝐂 🎵")
-BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/4ab47cf9e6f82841ebd1f.jpg")
-THUMB_IMG = getenv("THUMB_IMG", "https://telegra.ph/file/a596bb0efd68cbc3ce34b.png")
-AUD_IMG = getenv("AUD_IMG", "https://telegra.ph/file/4ab47cf9e6f82841ebd1f.jpg")
-QUE_IMG = getenv("QUE_IMG", "https://telegra.ph/file/e24a89cd18f0dcddaecbe.jpg")
+BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/de2f055c5bf699169c91d.jpg")
+THUMB_IMG = getenv("THUMB_IMG", "https://telegra.ph/file/de2f055c5bf699169c91d.jpg")
+AUD_IMG = getenv("AUD_IMG", "https://telegra.ph/file/de2f055c5bf699169c91d.jpg")
+QUE_IMG = getenv("QUE_IMG", "https://telegra.ph/file/de2f055c5bf699169c91d.jpg")
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 BOT_USERNAME = getenv("BOT_USERNAME", "Asad_Music_Bot")
@@ -41,6 +41,6 @@ U_BRANCH = "main"
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 UPSTREAM_REPO = os.environ.get(
-    "UPSTREAM_REPO", "https://github.com/jankarikiduniya/RockesMusic"
+    "UPSTREAM_REPO", "https://github.com/jankarikiduniya/RocksMusic2.0"
 )
 HEROKU_URL = fetch_heroku_git_url(HEROKU_API_KEY, HEROKU_APP_NAME)

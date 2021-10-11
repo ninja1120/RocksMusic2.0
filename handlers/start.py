@@ -98,7 +98,7 @@ async def start(client: Client, message: Message):
     alive = f"✨ Bot Achey Sey Chal Raha\n\n✨ Database Bhi Chal Raha\n\n✨ 𝗨𝗽𝘁𝗶𝗺𝗲 𝗦𝘁𝗮𝘁𝘂𝘀: `{uptime}`"
     
     await message.reply_photo(
-        photo="https://telegra.ph/file/74b3bd237e2c67e5f998e.jpg",
+        photo="https://telegra.ph/file/080c03d39c849f364d15d.jpg",
         caption=alive,
         reply_markup=keyboard,
     )

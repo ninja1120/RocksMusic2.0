@@ -540,11 +540,21 @@ async def play(_, message: Message):
     elif urls:
         query = toxt
         await lel.edit("🔎 **Roko Jara Search Ho Raha Hai...**😜")
+        message.from_user.first_name
+        await generate_cover(title, thumbnail)
+        file_path = await converter.convert(youtube.download(url))
+    else:
+        query = ""
+        for i in message.command[1:]:
+            query += " " + str(i)
+        print(query)
         ydl_opts = {"format": "bestaudio[ext=m4a]"}
+
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
-            url = f"https://youtube.com{results[0]['url_suffix']}"
             # print(results)
+            try:
+                url = f"https://youtube.com{results[0]['url_suffix']}":
             title = results[0]["title"][:60]
             thumbnail = results[0]["thumbnails"][0]
             thumb_name = f"{title}.jpg"

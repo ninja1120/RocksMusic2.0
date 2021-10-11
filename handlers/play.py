@@ -527,7 +527,7 @@ async def play(_, message: Message):
         )
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/de2f055c5bf699169c91d.jpg"
+        thumb_name = "https://telegra.ph/file/4ab47cf9e6f82841ebd1f.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         message.from_user.first_name
@@ -583,7 +583,57 @@ async def play(_, message: Message):
         ydl_opts = {"format": "bestaudio[ext=m4a]"}
 
         try:
-            results = YoutubeSearch(query, max_results=1).to_dict()
+            results = YoutubeSearch(query, max_results=5).to_dict()
+        except:
+            await lel.edit(
+                "😕 **Kesa Songa Hai Yar Mila Nai**\n\n» **Please Provide The Name Of The Song You Want To Play**😁"
+            )
+        # veez project
+        try:
+            toxxt = "\n"
+            j = 0
+            user = user_name
+            emojilist = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣"]
+            while j < 5:
+                toxxt += f"{emojilist[j]} [{results[j]['title'][:25]}...](https://youtube.com{results[j]['url_suffix']})\n"
+                toxxt += f" ├ 💡 **Duration** - `{results[j]['duration']}`\n"
+                toxxt += f" └ ⚡ __Powered by {BOT_NAME} AI__\n\n"
+                j += 1
+            keyboard = InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton(
+                            "1️⃣", callback_data=f"plll 0|{query}|{user_id}"
+                        ),
+                        InlineKeyboardButton(
+                            "2️⃣", callback_data=f"plll 1|{query}|{user_id}"
+                        ),
+                        InlineKeyboardButton(
+                            "3️⃣", callback_data=f"plll 2|{query}|{user_id}"
+                        ),
+                    ],
+                    [
+                        InlineKeyboardButton(
+                            "4️⃣", callback_data=f"plll 3|{query}|{user_id}"
+                        ),
+                        InlineKeyboardButton(
+                            "5️⃣", callback_data=f"plll 4|{query}|{user_id}"
+                        ),
+                    ],
+                    [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
+                ]
+            )
+            await message.reply_photo(
+                photo=f"{THUMB_IMG}", caption=toxxt, reply_markup=keyboard
+            )
+
+            await lel.delete()
+            # veez project
+            return
+            # veez project
+        except:
+            await lel.edit("__No More Results To Choose, Starting To Playing...__")
+
             # print(results)
             try:
                 url = f"https://youtube.com{results[0]['url_suffix']}"
@@ -680,7 +730,7 @@ async def lol_cb(b, cb):
         cb.message.reply_to_message.from_user.first_name
     except:
         cb.message.from_user.first_name
-    results = YoutubeSearch(query, max_results=1).to_dict()
+    results = YoutubeSearch(query, max_results=5).to_dict()
     resultss = results[x]["url_suffix"]
     title = results[x]["title"][:60]
     thumbnail = results[x]["thumbnails"][0]

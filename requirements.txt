@@ -3,6 +3,7 @@ tgcrypto
 py-tgcalls==0.5.5
 python-dotenv
 youtube_search_python==1.4.6
+speedtest-cli
 requests
 aiohttp
 aiofiles
@@ -10,13 +11,17 @@ asyncio
 youtube_search
 search_engine_parser
 ffmpeg-python
+ffmpeg
 pillow
+bs4
 future
 psutil
 wget
+python-arq
 motor
 dnspython
 yt_dlp
 httpx==0.13.3
 heroku3
 gitpython
+pykeyboard

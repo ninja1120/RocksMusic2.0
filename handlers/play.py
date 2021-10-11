@@ -633,7 +633,8 @@ async def play(_, message: Message):
             # veez project
         except:
             await lel.edit("__**Processing...**__")
-
+            
+            await lel.delete()
             # print(results)
             try:
                 url = f"https://youtube.com{results[0]['url_suffix']}"

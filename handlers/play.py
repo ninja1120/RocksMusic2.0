@@ -539,7 +539,7 @@ async def play(_, message: Message):
         )
     elif urls:
         query = toxt
-        await lel.edit("🔎 **Roko Jara Search Ho Raha Hai...**😜")
+        await lel.edit("🔎 **Searching...**😜")
         ydl_opts = {"format": "bestaudio[ext=m4a]"}
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
@@ -632,7 +632,7 @@ async def play(_, message: Message):
             return
             # veez project
         except:
-            await lel.edit("__No More Results To Choose, Starting To Playing...__")
+            await lel.edit("__**Processing...**__")
 
             # print(results)
             try:

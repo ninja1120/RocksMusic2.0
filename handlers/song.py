@@ -1,4 +1,4 @@
-# Copyright (C) 2021 By VeezMusicProject
+# Copyright (C) 2021 By 𝐑𝐎𝐂𝐊𝐒 𝐏𝐑𝐎𝐉𝐄𝐂𝐓
 
 from __future__ import unicode_literals
 

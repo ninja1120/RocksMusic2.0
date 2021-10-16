@@ -1,4 +1,4 @@
-# Copyright (C) 2021 Veez Music-Project
+# Copyright (C) 2021 𝐑𝐎𝐂𝐊𝐒 𝐏𝐑𝐎𝐉𝐄𝐂𝐓
 
 from asyncio.queues import QueueEmpty
 

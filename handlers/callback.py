@@ -1,4 +1,4 @@
-# (C) 2021 VeezMusic-Project
+# (C) 2021 𝐑𝐎𝐂𝐊𝐒 𝐏𝐑𝐎𝐉𝐄𝐂𝐓
 
 from config import (
     ASSISTANT_NAME,

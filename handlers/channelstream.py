@@ -1,4 +1,4 @@
-# Copyright (C) 2021 VeezMusic Project
+# Copyright (C) 2021 𝐑𝐎𝐂𝐊𝐒 𝐏𝐑𝐎𝐉𝐄𝐂𝐓
 
 import os
 from os import path

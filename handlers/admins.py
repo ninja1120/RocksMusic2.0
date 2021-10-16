@@ -1,4 +1,4 @@
-# Copyright (C) 2021 VeezMusicProject
+# Copyright (C) 2021 𝐑𝐎𝐂𝐊𝐒 𝐏𝐑𝐎𝐉𝐄𝐂𝐓
 
 from asyncio import QueueEmpty
 
@@ -48,7 +48,7 @@ async def update_admin(client, message):
         new_admins.append(u.user.id)
     admins[message.chat.id] = new_admins
     await message.reply_text(
-        "✅ Bot **reloaded correctly !**\n✅ **Admin list** has been **updated !**\n✅ **Dev** be **Asad Ali !**"
+        "✅ Bot **reloaded correctly !**\n✅ **Admin list** has been **updated !**\n✅ **Dev** 𝐛𝐲 **Asad Ali !**"
     )
 
 

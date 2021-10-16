@@ -46,26 +46,26 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕",
+                        "➕ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ➕",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("❓ 🅑︎𝐚𝐬𝐢𝐜 𝐆𝐮𝐢🅓︎", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("💝 Donate", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("📚 🅒︎𝐨𝐦𝐦𝐚𝐧𝐝🅢︎", callback_data="cbcmds"),
+                    InlineKeyboardButton("💝 🅚︎𝐢𝐧🅖︎", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "👥 🅖︎𝐫𝐨𝐮🅟︎", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📣 🅒︎𝐡𝐚𝐧𝐧𝐞🅛︎", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://www.youtube.com/jankarikiduniya"
+                        "🌐 🅓︎𝐞𝐯𝐞𝐥𝐨𝐩𝐞🅡︎", url="https://www.youtube.com/jankarikiduniya"
                     )
                 ],
             ]
@@ -95,10 +95,10 @@ async def start(client: Client, message: Message):
             ]
         )
     
-    alive = f"✨ Bot Achey Sey Chal Raha\n\n✨ Database Bhi Chal Raha\n\n✨ 𝗨𝗽𝘁𝗶𝗺𝗲 𝗦𝘁𝗮𝘁𝘂𝘀: `{uptime}`"
+    alive = f"✨ 𝐁𝐨𝐭 𝐈𝐬 𝐖𝐨𝐫𝐤𝐢𝐧𝐠...\n\n✨ 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 𝐈𝐬 𝐖𝐨𝐫𝐤𝐢𝐧𝐠...\n\n✨ 𝗨𝗽𝘁𝗶𝗺𝗲 𝗦𝘁𝗮𝘁𝘂𝘀: `{uptime}`"
     
     await message.reply_photo(
-        photo="https://telegra.ph/file/080c03d39c849f364d15d.jpg",
+        photo="https://telegra.ph/file/dbfb37d283ae466692ada.jpg",
         caption=alive,
         reply_markup=keyboard,
     )
@@ -115,7 +115,7 @@ async def help(client: Client, message: Message):
 
 ⚡ __Powered by {BOT_NAME} A.I__""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton(text="❔ HOW TO USE ME", callback_data="cbguide")]]
+            [[InlineKeyboardButton(text="❔ 𝐔𝐬𝐞 𝐌𝐞...", callback_data="cbguide")]]
         ),
     )
 

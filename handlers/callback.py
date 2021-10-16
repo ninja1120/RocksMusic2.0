@@ -28,26 +28,26 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕",
+                        "➕ 🅐︎𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮🅟︎ ➕",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("❓ 🅑︎𝐚𝐬𝐢𝐜 🅖︎𝐮𝐢𝐝𝐞", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("💝 Donate", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("📚 🅒︎𝐨𝐦𝐦𝐚𝐧𝐝🅢︎", callback_data="cbcmds"),
+                    InlineKeyboardButton("💝 🅚︎𝐢𝐧🅖︎", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "👥 🅖︎𝐫𝐨𝐮🅟︎", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📣 🅒︎𝐡𝐚𝐧𝐧𝐞🅛︎", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/jankarikiduniya/RockesMusic"
+                        "🌐 🅓𝐞𝐯𝐞𝐥𝐨𝐩𝐞🅡︎", url="https://github.com/jankarikiduniya/RockesMusic"
                     )
                 ],
             ]

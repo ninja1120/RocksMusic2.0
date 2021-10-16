@@ -47,7 +47,7 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 🅓𝐞𝐯𝐞𝐥𝐨𝐩𝐞🅡︎", url="https://github.com/jankarikiduniya/RockesMusic"
+                        "🌐 🅓𝐞𝐯𝐞𝐥𝐨𝐩𝐞🅡︎", url="https://youtube.com/jankarikiduniya"
                     )
                 ],
             ]

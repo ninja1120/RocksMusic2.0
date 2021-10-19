@@ -4,7 +4,7 @@ ROCKS Music Is A Telegram Bot Project That's Allow You To Play Music On Telegram
 
 <p align="center"><a href=""> <img src="https://img.shields.io/badge/Copy%20Paster%20Ki%20Gand%20Main%20Land-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
-<p align="center"><a href="https://t.me/Dr_Asad_Ali"><img src="https://telegra.ph/file/1b3ae71e07bcbe85db161.jpg" width="300"></a></p>
+<p align="center"><a href="https://t.me/Dr_Asad_Ali"><img src="https://telegra.ph/file/86e7cc4fb3033dfddcc0a.png" width="300"></a></p>
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
     <a href="https://github.com/jankarikiduniya/RocksMusic2.0/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-red.svg?style=flat-square" /></a>

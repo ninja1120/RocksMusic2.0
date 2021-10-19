@@ -1,6 +1,6 @@
 {
-    "name": "Rock Music Bot 2.0",
-    "logo": "https://telegra.ph/file/1b3ae71e07bcbe85db161.jpg",
+    "name": "Rock Music Bot",
+    "logo": "https://telegra.ph/file/86e7cc4fb3033dfddcc0a.png",
     "description": "Rocks Music Allow You To Stream Music Through The Telegram Voice Chat Feature.",
     "keywords": ["music", "voice chat", "telegram"],
     "repository": "https://github.com/jankarikiduniya",
@@ -47,7 +47,7 @@
         "BG_IMAGE": {
             "description": "fill with your costum background image link",
             "required": false,
-            "value": "https://telegra.ph/file/de2f055c5bf699169c91d.jpg"
+            "value": "https://telegra.ph/file/b15b45e4f353232ca80b5.png"
         },
         "OWNER_NAME": {
             "description": "fill with your username without @",

@@ -35,37 +35,39 @@ async def _human_time_duration(seconds):
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>✨ **Welcome {message.from_user.mention} !** \n
-💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) Mujhey Use Ker Key Ap Koe Bhi Song Play Ker Sakty Hain Ap Bas Apneh Group Main Add Kro Aur Admin Bana Do Developer @Dr_Asad_AlI $ This allows you to play music on groups through the new Telegram's voice chats!**
+        f"""<b>✨ **Welcome {message.from_user.mention} Sweet Heart How Are You!** \n
+💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) Aɢᴀʀ ᴀᴘᴋᴏ ᴠᴄ ᴘᴇʏ sᴏɴɢ ᴘʟᴀʏ ᴋᴀʀɴᴇʏ ʜᴀɪɴ ᴛᴏ ᴍᴜᴊʜᴇʏ ᴀᴘɴᴇʏ ɢʀᴏᴜᴘ ᴍᴀɪɴ ʙᴀɴᴀ ᴅᴏ ᴠᴄ ʀɪɢʜᴛ ᴋᴇʏ sᴀᴛʜ ᴀᴜʀ /play ᴋɪ ᴄᴏᴍᴍᴀɴᴅ ᴅᴀʟᴀɪɴ ᴀɢᴀʀ ғɪʀ ʙʜɪ ɪssᴜ ʜᴀɪ ᴛᴏ ᴍᴇʀʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ sᴇʏ ᴄᴏɴᴛᴀᴄᴛ ᴋᴀʀᴀɪɴ 👉 @Dr_Asad_Ali!.**
 
-💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
+ 👨‍🔧 **Tʜɪs ᴡɪʟʟ ᴀʟʟᴏᴡs ʏᴏᴜ ᴛᴏ ᴘʟᴀʏ ᴍᴜsɪᴄ ᴏɴ ʏᴏᴜʀ Tᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴠᴄ ᴄʜᴀᴛ ᴀɴʏ ɪssᴜᴇ ʀᴜɴ /help ᴄᴏᴍᴍᴀɴᴅs.!**
 
-❔ **To know how to use this bot, please click on the » ❓ Basic Guide button!**
+💡 **Find ᴏᴜᴛ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜɪs ʙᴜᴛᴛᴏɴ..👉 » 📚 Cᴏᴍᴍᴀɴᴅs Bᴜᴛᴛᴏɴ 📚 **
+
+❔ **How ᴛᴏ ᴜsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜɪs ʙᴜᴛᴛᴏɴ...👉  » ❓ Bᴀsɪᴄ Gᴜɪᴅᴇ Button!**
 </b>""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ➕",
+                        "⚙️ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ Gʀᴏᴜᴘ ⚙️",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("❓ 🅑︎𝐚𝐬𝐢𝐜 𝐆𝐮𝐢🅓︎", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("👩‍💻 Bᴀsɪᴄ Gᴜɪᴅᴇ👩‍💻 ", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("📚 🅒︎𝐨𝐦𝐦𝐚𝐧𝐝🅢︎", callback_data="cbcmds"),
-                    InlineKeyboardButton("💝 🅚︎𝐢𝐧🅖︎", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("📚 Cᴏᴍᴍᴀɴᴅs︎ 📚", callback_data="cbcmds"),
+                    InlineKeyboardButton("💝 Oᴡɴᴇʀ 💝", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 🅖︎𝐫𝐨𝐮🅟︎", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "👥 Gʀᴏᴜᴘ 👥︎", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "📣 🅒︎𝐡𝐚𝐧𝐧𝐞🅛︎", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📣 Cʜᴀɴɴᴇʟ 📣", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 🅓︎𝐞𝐯𝐞𝐥𝐨𝐩𝐞🅡︎", url="https://www.youtube.com/jankarikiduniya"
+                        "👑 Kɪɴɢ 👑", url="https://t.me/Dr_Asad_Ali"
                     )
                 ],
             ]
@@ -86,19 +88,19 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "✨ Group", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "✨ Gʀᴏᴜᴘ ✨︎", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "📣 Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📣 Cʜᴀɴɴᴇʟ 📣︎", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ]
             ]
         )
     
-    alive = f"✨ 𝐁𝐨𝐭 𝐈𝐬 𝐖𝐨𝐫𝐤𝐢𝐧𝐠...\n\n✨ 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 𝐈𝐬 𝐖𝐨𝐫𝐤𝐢𝐧𝐠...\n\n✨ 𝗨𝗽𝘁𝗶𝗺𝗲 𝗦𝘁𝗮𝘁𝘂𝘀: `{uptime}`"
+    alive = f"✨ 𝐁𝐨𝐭 𝐈𝐬 𝐖𝐨𝐫𝐤𝐢𝐧𝐠...\n✨ 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 𝐈𝐬 𝐖𝐨𝐫𝐤𝐢𝐧𝐠...\n✨ 𝗨𝗽𝘁𝗶𝗺𝗲 𝗦𝘁𝗮𝘁𝘂𝘀: `{uptime}`\n✨ 𝐃𝐞𝐯.👉 **Asᴀᴅ Aʟɪ**"
     
     await message.reply_photo(
-        photo="https://telegra.ph/file/dbfb37d283ae466692ada.jpg",
+        photo="https://telegra.ph/file/86e7cc4fb3033dfddcc0a.png",
         caption=alive,
         reply_markup=keyboard,
     )
@@ -109,13 +111,13 @@ async def start(client: Client, message: Message):
 )
 async def help(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>👋🏻 **Hello** {message.from_user.mention()}</b>
+        f"""<b>👋🏻 **Hello Sweet Heart ❣️ How Are You** {message.from_user.mention()}</b>
 
-**Please press the button below to read the explanation and see the list of available commands !**
+**Yᴏᴜ ᴄᴀɴ ғɪɴᴅ ʜᴇʀᴇ sᴇᴠᴇʀᴀʟ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡɪᴛʜ ʙʀɪᴇғ ᴇxᴘʟᴀɴᴀᴛɪᴏɴ 👇 !**
 
 ⚡ __Powered by {BOT_NAME} A.I__""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton(text="❔ 𝐔𝐬𝐞 𝐌𝐞...", callback_data="cbguide")]]
+            [[InlineKeyboardButton(text="🤔 Hᴏᴡ ᴛᴏ ᴜsᴇ Mᴇ 🤔", callback_data="cbguide")]]
         ),
     )
 
@@ -125,23 +127,23 @@ async def help(client: Client, message: Message):
 )
 async def help_(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>💡 Hello {message.from_user.mention} welcome to the help menu !</b>
+        f"""<b>💡 Hello {message.from_user.mention} Sᴡᴇᴇᴛ Hᴇᴀʀᴛ ❤️ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴍᴇɴᴜ !</b>
 
-**in this menu you can open several available command menus, in each command menu there is also a brief explanation of each command**
+**Yᴏᴜ ᴄᴀɴ ғɪɴᴅ ʜᴇʀᴇ sᴇᴠᴇʀᴀʟ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡɪᴛʜ ʙʀɪᴇғ ᴇxᴘʟᴀɴᴀᴛɪᴏɴ 👇**
 
 ⚡ __Powered by {BOT_NAME} A.I__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📚 Basic Cmd", callback_data="cbbasic"),
-                    InlineKeyboardButton("📕 Advanced Cmd", callback_data="cbadvanced"),
+                    InlineKeyboardButton("📚 Bᴀsɪᴄ Cᴍᴅ 📚", callback_data="cbbasic"),
+                    InlineKeyboardButton("📕 Aᴅᴠᴀɴᴄᴇᴅ Cᴍᴅ 📕", callback_data="cbadvanced"),
                 ],
                 [
-                    InlineKeyboardButton("📘 Admin Cmd", callback_data="cbadmin"),
-                    InlineKeyboardButton("📗 Sudo Cmd", callback_data="cbsudo"),
+                    InlineKeyboardButton("📘 Aᴅᴍɪɴ Cᴍᴅ 📘", callback_data="cbadmin"),
+                    InlineKeyboardButton("📗 Sᴜᴅᴏ Cᴍᴅ 📗", callback_data="cbsudo"),
                 ],
-                [InlineKeyboardButton("📙 Owner Cmd", callback_data="cbowner")],
-                [InlineKeyboardButton("📔 Fun Cmd", callback_data="cbfun")],
+                [InlineKeyboardButton("📙 Oᴡɴᴇʀ Cᴍᴅ 📙", callback_data="cbowner")],
+                [InlineKeyboardButton("📔 Fᴜɴ Cᴍᴅ 📔", callback_data="cbfun")],
             ]
         ),
     )
@@ -152,7 +154,7 @@ async def ping_pong(client: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("pinging...")
     delta_ping = time() - start
-    await m_reply.edit_text("🏓 `PONG!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
+    await m_reply.edit_text("🏓 `PONG!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ᴍs`\n" f"⚡️ Bʏ Asᴀᴅ Aʟɪ` ")
 
 
 @Client.on_message(command(["uptime", f"uptime@{BOT_USERNAME}"]) & ~filters.edited)
@@ -162,7 +164,7 @@ async def get_uptime(client: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_text(
-        "🤖 bot status:\n"
-        f"• **uptime:** `{uptime}`\n"
-        f"• **start time:** `{START_TIME_ISO}`"
+        "🤖 **Bot Status**:\n"
+        f"• **Uᴘᴛɪᴍᴇ:** `{uptime}`\n"
+        f"• **Sᴛᴀʀᴛ Tɪᴍᴇ:** `{START_TIME_ISO}`"
     )

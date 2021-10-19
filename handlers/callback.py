@@ -99,6 +99,7 @@ async def cbbasic(_, query: CallbackQuery):
 /vsong (video name) - download video from youtube detailed
 /lyric - (song name) lyrics scrapper
 /vk (song name) - download song from inline mode
+/Developer - (Owner) - @Dr_Asad_Ali
 
 🎧 [ CHANNEL VC CMD ]
 
@@ -109,6 +110,7 @@ async def cbbasic(_, query: CallbackQuery):
 /cskip - skip streaming to the next song
 /cend - end the streaming music
 /refresh - refresh the admin cache
+/Developer - (Owner) - @Dr_Asad_Ali
 /ubjoinc - invite the assistant for join to your channel
 
 ⚡ __Powered by {BOT_NAME} A.I__""",
@@ -128,6 +130,7 @@ async def cbadvanced(_, query: CallbackQuery):
 /ping - check the bot ping status
 /uptime - check the bot uptime status
 /id - show the group/user id & other
+/Developer - (Owner) - @Dr_Asad_Ali
 
 ⚡ __Powered by {BOT_NAME} A.I__""",
         reply_markup=InlineKeyboardMarkup(
@@ -150,6 +153,7 @@ async def cbadmin(_, query: CallbackQuery):
 /leave - order the userbot to leave your group
 /auth - authorized user for using music bot
 /deauth - unauthorized for using music bot
+/Developer - (Owner) - @Dr_Asad_Ali
 /control - open the player settings panel
 /delcmd (on | off) - enable / disable del cmd feature
 /musicplayer (on / off) - disable / enable music player in your group

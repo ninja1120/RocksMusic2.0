@@ -1,4 +1,4 @@
-# (C) 2021 𝐑𝐎𝐂𝐊𝐒 𝐏𝐑𝐎𝐉𝐄𝐂𝐓
+# (C) 2021 © Rocks Project
 
 from config import (
     ASSISTANT_NAME,
@@ -17,37 +17,39 @@ from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMa
 @Client.on_callback_query(filters.regex("cbstart"))
 async def cbstart(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""<b>✨ **Welcome , i'm {query.message.from_user.mention} !** \n
-💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) Mujhey Use Ker Key Ap Koe Bhi Song Play Ker Sakty Hain Ap Bas Apneh Group Main Add Kro Aur Admin Bana Do Developer @Dr_Asad_AlI & allows you to play music on groups through the new Telegram's voice chats!**
+        f"""<b>✨ **Welcome {message.from_user.mention} Sweet Heart How Are You!** \n
+💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) Aɢᴀʀ ᴀᴘᴋᴏ ᴠᴄ ᴘᴇʏ sᴏɴɢ ᴘʟᴀʏ ᴋᴀʀɴᴇʏ ʜᴀɪɴ ᴛᴏ ᴍᴜᴊʜᴇʏ ᴀᴘɴᴇʏ ɢʀᴏᴜᴘ ᴍᴀɪɴ ʙᴀɴᴀ ᴅᴏ ᴠᴄ ʀɪɢʜᴛ ᴋᴇʏ sᴀᴛʜ ᴀᴜʀ /play ᴋɪ ᴄᴏᴍᴍᴀɴᴅ ᴅᴀʟᴀɪɴ ᴀɢᴀʀ ғɪʀ ʙʜɪ ɪssᴜ ʜᴀɪ ᴛᴏ ᴍᴇʀʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ sᴇʏ ᴄᴏɴᴛᴀᴄᴛ ᴋᴀʀᴀɪɴ 👉 @Dr_Asad_Ali!.**
 
-💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
+ 👨‍🔧 **Tʜɪs ᴡɪʟʟ ᴀʟʟᴏᴡs ʏᴏᴜ ᴛᴏ ᴘʟᴀʏ ᴍᴜsɪᴄ ᴏɴ ʏᴏᴜʀ Tᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴠᴄ ᴄʜᴀᴛ ᴀɴʏ ɪssᴜᴇ ʀᴜɴ /help ᴄᴏᴍᴍᴀɴᴅs.!**
 
-❔ **To know how to use this bot, please click on the » ❓ Basic Guide button!**
+💡 **Find ᴏᴜᴛ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜɪs ʙᴜᴛᴛᴏɴ..👉 » 📚 Cᴏᴍᴍᴀɴᴅs Bᴜᴛᴛᴏɴ 📚 **
+
+❔ **How ᴛᴏ ᴜsᴇ ᴄʟɪᴄᴋ ᴏɴ ᴛʜɪs ʙᴜᴛᴛᴏɴ...👉  » ❓ Bᴀsɪᴄ Gᴜɪᴅᴇ Button!**
 </b>""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ 🅐︎𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮🅟︎ ➕",
+                        " Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ Gʀᴏᴜᴘ ",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("❓ 🅑︎𝐚𝐬𝐢𝐜 🅖︎𝐮𝐢𝐝𝐞", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("Bᴀsɪᴄ Gᴜɪᴅᴇ", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("📚 🅒︎𝐨𝐦𝐦𝐚𝐧𝐝🅢︎", callback_data="cbcmds"),
-                    InlineKeyboardButton("💝 🅚︎𝐢𝐧🅖︎", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("📚 Cᴏᴍᴍᴀɴᴅs︎ 📚", callback_data="cbcmds"),
+                    InlineKeyboardButton("💝 Oᴡɴᴇʀ 💝", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 🅖︎𝐫𝐨𝐮🅟︎", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "👥 Gʀᴏᴜᴘ 👥︎", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "📣 🅒︎𝐡𝐚𝐧𝐧𝐞🅛︎", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📣 Cʜᴀɴɴᴇʟ 📣", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 🅓𝐞𝐯𝐞𝐥𝐨𝐩𝐞🅡︎", url="https://youtube.com/jankarikiduniya"
+                        "👑 Kɪɴɢ 👑", url="https://t.me/Dr_Asad_Ali"
                     )
                 ],
             ]
@@ -59,23 +61,23 @@ async def cbstart(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbhelp"))
 async def cbhelp(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""<b>💡 Hello there, welcome to the help menu !</b>
+        f"""<b>💡 Hello {message.from_user.mention} Sᴡᴇᴇᴛ Hᴇᴀʀᴛ ❤️ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴍᴇɴᴜ !</b>
 
-» **in this menu you can open several available command menus, in each command menu there is also a brief explanation of each command**
+**Yᴏᴜ ᴄᴀɴ ғɪɴᴅ ʜᴇʀᴇ sᴇᴠᴇʀᴀʟ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡɪᴛʜ ʙʀɪᴇғ ᴇxᴘʟᴀɴᴀᴛɪᴏɴ 👇**
 
 ⚡ __Powered by {BOT_NAME} A.I__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📚 Basic Cmd", callback_data="cbbasic"),
-                    InlineKeyboardButton("📕 Advanced Cmd", callback_data="cbadvanced"),
+                    InlineKeyboardButton("📚 Bᴀsɪᴄ Cᴍᴅ 📚", callback_data="cbbasic"),
+                    InlineKeyboardButton("📕 Aᴅᴠᴀɴᴄᴇᴅ Cᴍᴅ 📕", callback_data="cbadvanced"),
                 ],
                 [
-                    InlineKeyboardButton("📘 Admin Cmd", callback_data="cbadmin"),
-                    InlineKeyboardButton("📗 Sudo Cmd", callback_data="cbsudo"),
+                    InlineKeyboardButton("📘 Aᴅᴍɪɴ Cᴍᴅ 📘", callback_data="cbadmin"),
+                    InlineKeyboardButton("📗 Sᴜᴅᴏ Cᴍᴅ 📗", callback_data="cbsudo"),
                 ],
-                [InlineKeyboardButton("📙 Owner Cmd", callback_data="cbowner")],
-                [InlineKeyboardButton("🏡 Back to Help", callback_data="cbguide")],
+                [InlineKeyboardButton("📙 Oᴡɴᴇʀ Cᴍᴅ 📙", callback_data="cbowner")],
+                [InlineKeyboardButton("📔 Fᴜɴ Cᴍᴅ 📔", callback_data="cbfun")],
             ]
         ),
     )
@@ -84,7 +86,7 @@ async def cbhelp(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbbasic"))
 async def cbbasic(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""<b>🏮 here is the basic commands</b>
+        f"""<b>🏮 Hᴇʀᴇ ɪs ᴛʜᴇ ʙᴀsɪᴄ ᴄᴏᴍᴍᴀɴᴅs...👇</b>
 
 🎧 [ GROUP VC CMD ]
 
@@ -119,7 +121,7 @@ async def cbbasic(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbadvanced"))
 async def cbadvanced(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""<b>🏮 here is the advanced commands</b>
+        f"""<b>🏮 Hᴇʀᴇ ɪs ᴛʜᴇ ᴀᴅᴠᴀɴᴄᴇᴅ ᴄᴏᴍᴍᴀɴᴅs...👇</b>
 
 /start (in group) - see the bot alive status
 /reload - reload bot and refresh the admin list
@@ -137,7 +139,7 @@ async def cbadvanced(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbadmin"))
 async def cbadmin(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""<b>🏮 here is the admin commands</b>
+        f"""<b>🏮 Aᴅᴍɪɴ Cᴏᴍᴍᴀɴᴅs...👇</b>
 
 /player - show the music playing status
 /pause - pause the music streaming
@@ -162,7 +164,7 @@ async def cbadmin(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbsudo"))
 async def cbsudo(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""<b>🏮 here is the sudo commands</b>
+        f"""<b>🏮 Sᴜᴅᴏ Cᴏᴍᴍᴀɴɴᴅs..👇</b>
 
 /leaveall - order the assistant to leave from all group
 /stats - show the bot statistic
@@ -178,7 +180,7 @@ async def cbsudo(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbowner"))
 async def cbowner(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""<b>🏮 here is the owner commands</b>
+        f"""<b>🏮 Oᴡᴇʀ Cᴏᴍᴍᴀɴᴅs...👇</b>
 
 /stats - show the bot statistic
 /broadcast - send a broadcast message from bot
@@ -198,7 +200,7 @@ async def cbowner(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbguide"))
 async def cbguide(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""❓ HOW TO USE THIS BOT:
+        f"""❓ Hᴏᴡ ᴛᴏ ᴜsᴇ @Dr_Asad_Ali Rᴇᴘᴏ ʙᴏᴛ:
 
 1.) first, add me to your group.
 2.) then promote me as admin and give all permissions except anonymous admin.
@@ -224,7 +226,7 @@ async def close(_, query: CallbackQuery):
 @cb_admin_check
 async def cbback(_, query: CallbackQuery):
     await query.edit_message_text(
-        "**💡 here is the control menu of bot :**",
+        "**💡 Bᴏᴛ Cᴏɴᴛʀᴏʟ ᴍᴇɴᴜ :**",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -247,7 +249,7 @@ async def cbback(_, query: CallbackQuery):
 @authorized_users_only
 async def cbdelcmds(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""<b>this is the feature information :</b>
+        f"""<b> Bᴏᴛ ғᴇᴀᴛᴜʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ :</b>
         
 **💡 Feature:** delete every commands sent by users to avoid spam in groups !
 
@@ -269,23 +271,23 @@ async def cbdelcmds(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbcmds"))
 async def cbhelps(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""<b>💡 Hello there, welcome to the help menu !</b>
+        f"""<b>💡 Hello {message.from_user.mention} Sᴡᴇᴇᴛ Hᴇᴀʀᴛ ❤️ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴍᴇɴᴜ !</b>
 
-» **in this menu you can open several available command menus, in each command menu there is also a brief explanation of each command**
+**Yᴏᴜ ᴄᴀɴ ғɪɴᴅ ʜᴇʀᴇ sᴇᴠᴇʀᴀʟ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡɪᴛʜ ʙʀɪᴇғ ᴇxᴘʟᴀɴᴀᴛɪᴏɴ 👇**
 
 ⚡ __Powered by {BOT_NAME} A.I__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📚 Basic Cmd", callback_data="cbbasic"),
-                    InlineKeyboardButton("📕 Advanced Cmd", callback_data="cbadvanced"),
+                    InlineKeyboardButton("📚 Bᴀsɪᴄ Cᴍᴅ 📚", callback_data="cbbasic"),
+                    InlineKeyboardButton("📕 Aᴅᴠᴀɴᴄᴇᴅ Cᴍᴅ 📕", callback_data="cbadvanced"),
                 ],
                 [
-                    InlineKeyboardButton("📘 Admin Cmd", callback_data="cbadmin"),
-                    InlineKeyboardButton("📗 Sudo Cmd", callback_data="cbsudo"),
+                    InlineKeyboardButton("📘 Aᴅᴍɪɴ Cᴍᴅ 📘", callback_data="cbadmin"),
+                    InlineKeyboardButton("📗 Sᴜᴅᴏ Cᴍᴅ 📗", callback_data="cbsudo"),
                 ],
-                [InlineKeyboardButton("📙 Owner Cmd", callback_data="cbowner")],
-                [InlineKeyboardButton("🏡 Go Back", callback_data="cbstart")],
+                [InlineKeyboardButton("📙 Oᴡɴᴇʀ Cᴍᴅ 📙", callback_data="cbowner")],
+                [InlineKeyboardButton("📔 Fᴜɴ Cᴍᴅ 📔", callback_data="cbfun")],
             ]
         ),
     )

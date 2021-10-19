@@ -1,4 +1,4 @@
-# Copyright (C) 2021 By 𝐑𝐎𝐂𝐊𝐒 𝐏𝐑𝐎𝐉𝐄𝐂𝐓
+# Copyright (C) 2021 By 𝐑𝐎𝐂𝐊𝐒
 
 from __future__ import unicode_literals
 
@@ -48,14 +48,14 @@ async def song(client, message):
         results[0]["url_suffix"]
     except Exception as e:
         await message.reply("{str(e)}")
-    msg = await message.reply("📥 **downloading...**")
+    msg = await message.reply("📥 **Downloading...**")
     preview = wget.download(thumbnail)
-    veez = f"🎧 **Uploader @{bn}**"
+    veez = f"🎧 **Uploader @Dr_Asad_Ali**"
     with YoutubeDL(ydl_opts) as ydl:
         info_dict = ydl.extract_info(link, download=False)
         audio_file = ydl.prepare_filename(info_dict)
         ydl.process_info(info_dict)
-    await msg.edit("📤 **uploading...**")
+    await msg.edit("📤 **Uploading...**")
     await message.reply_audio(
         audio_file,
         duration=int(info_dict["duration"]),
@@ -229,14 +229,14 @@ async def vsong(client, message):
     except Exception as e:
         print(e)
     try:
-        msg = await message.reply("📥 **downloading video...**")
+        msg = await message.reply("📥 **Downloading Video...**")
         with YoutubeDL(ydl_opts) as ytdl:
             ytdl_data = ytdl.extract_info(link, download=True)
             file_name = ytdl.prepare_filename(ytdl_data)
     except Exception as e:
-        return await msg.edit(f"🚫 **error:** {e}")
+        return await msg.edit(f"🚫 **Error:** {e}")
     preview = wget.download(thumbnail)
-    await msg.edit("📤 **uploading video...**")
+    await msg.edit("📤 **Uploading Video...**")
     await message.reply_video(
         file_name,
         duration=int(ytdl_data["duration"]),
@@ -254,14 +254,14 @@ async def vsong(client, message):
 async def lyrics(_, message):
     try:
         if len(message.command) < 2:
-            await message.reply_text("» **give a lyric name too.**")
+            await message.reply_text("» **Give A Lyric Name Too.**")
             return
         query = message.text.split(None, 1)[1]
-        rep = await message.reply_text("🔎 **searching lyrics...**")
+        rep = await message.reply_text("🔎 **Searching Lyrics...**")
         resp = requests.get(
             f"https://api-tede.herokuapp.com/api/lirik?l={query}"
         ).json()
         result = f"{resp['data']}"
         await rep.edit(result)
     except Exception:
-        await rep.edit("❌ **lyrics not found.**\n\n» **please give a valid song name.**")
+        await rep.edit("❌ **Lyrics Not Found.**\n» **Please Give A Valid Song Name Or Contact To @Dr_Asad_Ali.**")

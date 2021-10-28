@@ -48,7 +48,17 @@ async def update_admin(client, message):
         new_admins.append(u.user.id)
     admins[message.chat.id] = new_admins
     await message.reply_text(
-        "✅ Bot **reloaded correctly !**\n✅ **Admin list** has been **updated !**\n✅ **Dev** by **Asad Ali !**"
+        "💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ ʀᴏᴄᴋs ᴠᴄ ᴘʟᴀʏᴇʀ
+ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs.
+┏━━━━━━━━━━━━━━━━━┓
+┣★ ᴀᴅᴍɪɴ : [ʀᴇғʀᴇsʜᴇᴅ](https://t.me/Give_Me_Heart)
+┣★ ʙᴏᴛ : [ʀᴇʟᴏᴀᴅᴇᴅ](https://t.me/Shayri_Music_Lovers)
+┣★ ᴅᴇᴠᴇʟᴇᴘᴇʀ : [ᴀsᴀᴅ](https://t.me/Give_Me_Heart)
+┗━━━━━━━━━━━━━━━━━┛
+
+💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ » ǫᴜᴇsᴛɪᴏɴ
+ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/Dr_Asad_Ali).
+━━━━━━━━━━━━━━━━━━━**"
     )
 
 

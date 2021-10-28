@@ -168,7 +168,7 @@ def r_ply(type_):
                 InlineKeyboardButton("⏭", "skip"),
             ],
             [
-                InlineKeyboardButton("📖 PLAY-LIST", "playlist"),
+                InlineKeyboardButton("👑 ᴏᴡɴᴇʀ", url=f"https://t.me/Dr_Asad_Ali"),
             ],
             [InlineKeyboardButton("🗑 Close", "cls")],
         ]
@@ -383,7 +383,7 @@ async def m_cb(b, cb):
                     InlineKeyboardButton("⏭", "skip"),
                 ],
                 [
-                    InlineKeyboardButton("📖 PLAY-LIST", "playlist"),
+                    InlineKeyboardButton("👑 ᴏᴡɴᴇʀ", url=f"https://t.me/Dr_Asad_Ali"),
                 ],
                 [InlineKeyboardButton("🗑 Close", "cls")],
             ]
@@ -433,7 +433,7 @@ async def play(_, message: Message):
     global useer
     if message.chat.id in DISABLED_GROUPS:
         return
-    lel = await message.reply("🔎 **Ruko Jara...**")
+    lel = await message.reply("🔎 **Exᴇᴄᴜᴛɪɴɢ...**")
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
     try:
@@ -515,8 +515,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🖱 ᴍᴇɴᴜ", callback_data="menu"),
-                    InlineKeyboardButton("🗑 ᴄʟᴏsᴇ", callback_data="cls"),
+                    InlineKeyboardButton("❤️ ʜᴇᴀʀᴛ", url=f"https://t.me/Give_Me_Heart"),
+                    InlineKeyboardButton("👑 ᴏᴡɴᴇʀ", url=f"https://t.me/Dr_Asad_Ali"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -527,7 +527,7 @@ async def play(_, message: Message):
         )
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/47d31a8760548a8bc4250.jpg"
+        thumb_name = "https://telegra.ph/file/013406fefdfe601d85023.png"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         message.from_user.first_name
@@ -539,7 +539,7 @@ async def play(_, message: Message):
         )
     elif urls:
         query = toxt
-        await lel.edit("🔎 **Searching...**😜")
+        await lel.edit("🔎 **Sᴇᴀʀᴄʜɪɴɢ...**😜")
         ydl_opts = {"format": "bestaudio[ext=m4a]"}
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
@@ -562,8 +562,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🖱 ᴍᴇɴᴜ", callback_data="menu"),
-                    InlineKeyboardButton("🗑 ᴄʟᴏsᴇ", callback_data="cls"),
+                    InlineKeyboardButton("❤️ ʜᴇᴀʀᴛ", url=f"https://t.me/Give_Me_Heart"),
+                    InlineKeyboardButton("👑 ᴏᴡɴᴇʀ", url=f"https://t.me/Dr_Asad_Ali"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -632,7 +632,8 @@ async def play(_, message: Message):
             return
             # veez project
         except:
-            await lel.edit("__**Processing...**__")
+            await lel.edit("__**🎸 Pʀᴏᴄᴇssɪɴɢ...**__")
+            await lel.edit("__**🗼 Cᴏɴɴᴇᴄᴛɪɴɢ ᴠᴄ...**__")
             
             await lel.delete()
             # print(results)
@@ -655,8 +656,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🖱 ᴍᴇɴᴜ", callback_data="menu"),
-                        InlineKeyboardButton("🗑 ᴄʟᴏsᴇ", callback_data="cls"),
+                        InlineKeyboardButton("❤️ ʜᴇᴀʀᴛ", url=f"https://t.me/Give_Me_Heart"),
+                        InlineKeyboardButton("👑 ᴏᴡɴᴇʀ", url=f"https://t.me/Dr_Asad_Ali"),
                     ],
                     [
                         InlineKeyboardButton(
@@ -700,8 +701,8 @@ async def play(_, message: Message):
             return
         await message.reply_photo(
             photo="final.png",
-            caption=f"🏷 **Name:** [{title[:60]}]({url})\n⏱ **Duration:** `{duration}`\n💡 **Status:** `Playing`\n"
-            + f"🎧 **Request by:** {message.from_user.mention}",
+            caption=f"🏷 **ɴᴀᴍᴇ:** [{title[:60]}]({url})\n⏱ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n💡 **sᴛᴀᴛᴜs:** `Playing`\n"
+            + f"🎧 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {message.from_user.mention}",
             reply_markup=keyboard,
         )
         os.remove("final.png")
@@ -760,8 +761,8 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🖱 ᴍᴇɴᴜ", callback_data="menu"),
-                InlineKeyboardButton("🗑 ᴄʟᴏsᴇ", callback_data="cls"),
+                InlineKeyboardButton("❤️ ʜᴇᴀʀᴛ", url=f"https://t.me/Give_Me_Heart"),
+                InlineKeyboardButton("👑 ᴏᴡɴᴇʀ", url=f"https://t.me/Dr_Asad_Ali"),
             ],
             [InlineKeyboardButton("👨‍👨‍👧‍👦 Gʀᴏᴜᴘ 👨‍👨‍👧‍👦", url=f"https://t.me/{GROUP_SUPPORT}")],
         ]
@@ -802,8 +803,8 @@ async def lol_cb(b, cb):
         await b.send_photo(
             chat_id,
             photo="final.png",
-            caption=f"🏷 **Name:** [{title[:60]}]({url})\n⏱ **Duration:** `{duration}`\n💡 **Status:** `Playing`\n"
-            + f"🎧 **Request by:** {r_by.mention}",
+            caption=f"🏷 **ɴᴀᴍᴇ** [{title[:60]}]({url})\n⏱ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n💡 **sᴛᴀᴛᴜs:** `Playing`\n"
+            + f"🎧 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {r_by.mention}",
             reply_markup=keyboard,
         )
     if path.exists("final.png"):

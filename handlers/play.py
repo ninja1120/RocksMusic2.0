@@ -703,7 +703,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             caption=f"🏷 **ɴᴀᴍᴇ:** [{title[:25]}]({url})\n⏱ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n💡 **sᴛᴀᴛᴜs:** `Playing`\n"
-            + f"🎧 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** [{message.from_user.mention[:10]}",
+            + f"🎧 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {message.from_user.mention}",
             reply_markup=keyboard,
         )
         os.remove("final.png")
@@ -805,7 +805,7 @@ async def lol_cb(b, cb):
             chat_id,
             photo="final.png",
             caption=f"🏷 **ɴᴀᴍᴇ** [{title[:25]}]({url})\n⏱ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n💡 **sᴛᴀᴛᴜs:** `ᴡᴀɪᴛɪɴɢ`\n"
-            + f"🎧 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {[r_by.mention[:10]}",
+            + f"🎧 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {r_by.mention}",
             reply_markup=keyboard,
         )
     if path.exists("final.png"):

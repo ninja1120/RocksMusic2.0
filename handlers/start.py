@@ -97,22 +97,10 @@ async def start(client: Client, message: Message):
             ]
         )
     
-    await message.reply_text(
-        f"""**━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ ʀᴏᴄᴋs ᴠᴄ ᴘʟᴀʏᴇʀ
-ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs.
-┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴏʀ : [ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ](https://t.me/Give_Me_Heart)
-┣★ ᴜᴘᴅᴀᴛᴇs : [ᴍʏ ɢʀᴏᴜᴘ](https://t.me/Shayri_Music_Lovers)
-┣★ sᴜᴘᴘᴏʀᴛ : [ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs](https://t.me/AsadSupport)
-┗━━━━━━━━━━━━━━━━━┛
-
-💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ » ǫᴜᴇsᴛɪᴏɴ
-ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/Dr_Asad_Ali).
-━━━━━━━━━━━━━━━━━━━**""",
+    alive = f"★ ʙᴏᴛ : [ᴡᴏʀᴋɪɴɢ](https://t.me/rocks_music_bot)\n★ ᴅᴀᴛᴀʙᴀsᴇ : [ᴡᴏʀᴋɪɴɢ](https://t.me/Shayri_Music_Lovers)\n✨ ᴜᴘᴛɪᴍᴇ: `{uptime}`\n★ ʙᴏᴛ : [ᴅᴇᴠᴇʟᴏᴘᴇʀ](https://t.me/Dr_Asad_Ali)"
     
     await message.reply_photo(
-        photo="https://telegra.ph/file/8d930700b44cb9715257c.gif",
+        photo="https://telegra.ph/file/86e7cc4fb3033dfddcc0a.png",
         caption=alive,
         reply_markup=keyboard,
     )

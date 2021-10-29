@@ -36,7 +36,7 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>✨ **Welcome {message.from_user.mention} Sweet Heart How Are You!** \n
-💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) Aɢᴀʀ ᴀᴘᴋᴏ ᴠᴄ ᴘᴇʏ sᴏɴɢ ᴘʟᴀʏ ᴋᴀʀɴᴇʏ ʜᴀɪɴ ᴛᴏ ᴍᴜᴊʜᴇʏ ᴀᴘɴᴇʏ ɢʀᴏᴜᴘ ᴍᴀɪɴ ʙᴀɴᴀ ᴅᴏ ᴠᴄ ʀɪɢʜᴛ ᴋᴇʏ sᴀᴛʜ ᴀᴜʀ /play ᴋɪ ᴄᴏᴍᴍᴀɴᴅ ᴅᴀʟᴀɪɴ ᴀɢᴀʀ ғɪʀ ʙʜɪ ɪssᴜ ʜᴀɪ ᴛᴏ ᴍᴇʀʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ sᴇʏ ᴄᴏɴᴛᴀᴄᴛ ᴋᴀʀᴀɪɴ 👉 @Dr_Asad_Ali!.**
+💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) Aɢᴀʀ ᴀᴘᴋᴏ ᴠᴄ ᴘᴇʏ sᴏɴɢ ᴘʟᴀʏ ᴋᴀʀɴᴇʏ ʜᴀɪɴ ᴛᴏ ᴍᴜᴊʜᴇʏ ᴀᴘɴᴇʏ ɢʀᴏᴜᴘ ᴍᴀɪɴ ᴀᴅᴍɪɴ ʙᴀɴᴀ ᴅᴏ ᴠᴄ ʀɪɢʜᴛ ᴋᴇʏ sᴀᴛʜ ᴀᴜʀ /play ᴋɪ ᴄᴏᴍᴍᴀɴᴅ ᴅᴀʟᴀɪɴ ᴀɢᴀʀ ғɪʀ ʙʜɪ ɪssᴜ ʜᴀɪ ᴛᴏ ᴍᴇʀʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ sᴇʏ ᴄᴏɴᴛᴀᴄᴛ ᴋᴀʀᴀɪɴ 👉 @Dr_Asad_Ali!.**
 
  👨‍🔧 **Tʜɪs ᴡɪʟʟ ᴀʟʟᴏᴡs ʏᴏᴜ ᴛᴏ ᴘʟᴀʏ ᴍᴜsɪᴄ ᴏɴ ʏᴏᴜʀ Tᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴠᴄ ᴄʜᴀᴛ ᴀɴʏ ɪssᴜᴇ ʀᴜɴ /help ᴄᴏᴍᴍᴀɴᴅs.!**
 
@@ -97,10 +97,10 @@ async def start(client: Client, message: Message):
             ]
         )
     
-    alive = f"★ ʙᴏᴛ : [ᴡᴏʀᴋɪɴɢ](https://t.me/rocks_music_bot)\n★ ᴅᴀᴛᴀʙᴀsᴇ : [ᴡᴏʀᴋɪɴɢ](https://t.me/Shayri_Music_Lovers)\n✨ ᴜᴘᴛɪᴍᴇ: `{uptime}`\n★ ʙᴏᴛ : [ᴅᴇᴠᴇʟᴏᴘᴇʀ](https://t.me/Dr_Asad_Ali)"
+    alive = f"★ **ʙᴏᴛ** : [ᴡᴏʀᴋɪɴɢ](https://t.me/rocks_music_bot)\n★ **ᴅᴀᴛᴀʙᴀsᴇ** : [ᴡᴏʀᴋɪɴɢ](https://t.me/Shayri_Music_Lovers)\n★ **ᴜᴘᴛɪᴍᴇ** `{uptime}`\n★ **ʙᴏᴛ** : [ᴅᴇᴠᴇʟᴏᴘᴇʀ](https://t.me/Dr_Asad_Ali)"
     
     await message.reply_photo(
-        photo="https://telegra.ph/file/86e7cc4fb3033dfddcc0a.png",
+        photo="https://telegra.ph/file/8d930700b44cb9715257c.gif",
         caption=alive,
         reply_markup=keyboard,
     )
@@ -113,7 +113,7 @@ async def help(client: Client, message: Message):
     await message.reply_text(
         f"""<b>👋🏻 **Hello Sweet Heart ❣️ How Are You** {message.from_user.mention()}</b>
 
-**Yᴏᴜ ᴄᴀɴ ғɪɴᴅ ʜᴇʀᴇ sᴇᴠᴇʀᴀʟ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡɪᴛʜ ʙʀɪᴇғ ᴇxᴘʟᴀɴᴀᴛɪᴏɴ 👇 !**
+**Yᴏᴜ ᴄᴀɴ ғɪɴᴅ ʜᴇʀᴇ sᴇᴠᴇʀᴀʟ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡɪᴛʜ ʙʀɪᴇғ ᴇxᴘʟᴀɴᴀᴛɪᴏɴ ɢɪᴠᴇ ᴍᴇ [ʜᴇᴀʀᴛ](https://t.me/Give_Me_Heart)👇 !**
 
 ⚡ __Powered by {BOT_NAME} A.I__""",
         reply_markup=InlineKeyboardMarkup(
